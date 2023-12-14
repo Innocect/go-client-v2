@@ -1,0 +1,25 @@
+{
+  "coverageID": "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+  "name": "CoverageUpdate",
+  "description": "Modify coverage",
+  "items": [
+    {
+      "itemID": "84016410-e510-4bc8-b16b-7ba10f709817",
+      "name": "Water Heater",
+      "styleID": "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+      "tradeID": "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+      "tradeCode": "Plumbing",
+      "starItemID": 332,
+          "starTradeCode": "PLB"
+    },
+    {
+      "itemID": "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+      "name": "Pipe",
+          "styleID": "",
+      "tradeID": "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+      "tradeCode": "Plumbing",
+      "starItemID": 989,
+      "starTradeCode": "PLB"
+    }
+  ]
+}

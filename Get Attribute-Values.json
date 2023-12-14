@@ -1,0 +1,39 @@
+{
+  "values":  [
+    {
+      "valueID":  "1",
+      "value":  "HOME WARRANTY",
+      "status":  "AVS_ACTIVE",
+      "metadata":  {},
+      "auditTrail":  []
+    },
+    {
+      "valueID":  "2",
+      "value":  "INSPECTION",
+      "status":  "AVS_ACTIVE",
+      "metadata":  {},
+      "auditTrail":  []
+    },
+    {
+      "valueID":  "3",
+      "value":  "REFERRAL",
+      "status":  "AVS_ACTIVE",
+      "metadata":  {},
+      "auditTrail":  []
+    },
+    {
+      "valueID":  "4",
+      "value":  "PAY PER REPAIR",
+      "status":  "AVS_ACTIVE",
+      "metadata":  {},
+      "auditTrail":  []
+    }
+  ],
+  "pagination":  {
+    "currentPage":  0,
+    "itemsPerPage":  0,
+    "totalPages":  0,
+    "totalRecords":  0
+  },
+  "errors":  []
+}

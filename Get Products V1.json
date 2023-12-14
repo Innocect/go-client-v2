@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": "99bd9f2f-4335-4763-a093-2f07929ae072",
+    "name": "STREEM",
+    "productFamilyID": "d0b71f5e-245b-4f22-9336-bda975444a07",
+    "internalDescription": "ARTEMIS POC TEST",
+    "externalDescription": "Artemis POC",
+    "customerTypes": [
+      "CustomerType_HOMEOWNER"
+    ],
+    "standardSKUIDs": [
+      "3400a68e-3491-4e36-b6bb-6350dded424e"
+    ],
+    "contractTerms": [
+      {
+        "months": 12,
+        "eligiblePaymentTerms": [
+          "PaymentTerms_UNKNOWN"
+        ]
+      }
+    ],
+    "productLimitations": [
+      {
+        "limitationLevel": "LimitationLevel_PRODUCT",
+        "limitationType": "LimitationType_PER_OCCURRENCE",
+        "limitationReferenceID": "99bd9f2f-4335-4763-a093-2f07929ae072"
+      }
+    ],
+    "effectiveOn": "1661144400",
+    "expirationOn": "253402236000",
+    "meta": {
+      "createdOn": "1669866885",
+      "updatedOn": "1671040930"
+    },
+    "starOldPV": "FTDR1046",
+    "compactProductDetails": {
+      "listingTerm": {}
+    },
+    "serviceFees": [
+      "0"
+    ],
+    "propertyLimits": {
+      "age": {
+        "max": 999
+      },
+      "size": {
+        "max": 10000
+      },
+      "guestSuites": {},
+      "propertyType": [
+        "DwellingType_CONDO",
+        "DwellingType_MOBILE_HOME",
+        "DwellingType_TOWNHOME",
+        "DwellingType_SINGLE_FAMILY",
+        "DwellingType_DUPLEX",
+        "DwellingType_TRIPLEX",
+        "DwellingType_FOUR_PLEX"
+      ]
+    },
+    "familyDetails": {
+      "productFamilyID": "d0b71f5e-245b-4f22-9336-bda975444a07",
+      "starProductPlanID": "10208",
+      "starProductID": "6",
+      "tenant": "FTDR",
+      "description": "ARTEMIS POC"
+    },
+    "attributes": {
+      "maintenanceFee": {
+        "currencyCode": "USD",
+        "units": "125"
+      },
+      "maxStreemCallCount": 2
+    }
+  },
+  "tags": {}
+}

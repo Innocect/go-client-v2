@@ -1,0 +1,4579 @@
+{
+  "product":  [
+    {
+      "productTemplateID":  "a5599d54-9011-4da8-9a02-47cf5846e8af",
+      "productID":  "7506e2d5-1e07-45bf-8475-cdc2613bd2ce",
+      "starPVID":  "7005",
+      "starOldPV":  "7005",
+      "productType":  "6",
+      "name":  "Streem Product-Local Testing",
+      "description":  "Streem Product, RE,RELO, Condo&Town",
+      "attributes":  {
+        "brand":  "FTDR",
+        "salesChannel":  "RE",
+        "recallPeriod":  {
+          "value":  70,
+          "unit":  "TPU_DAY"
+        },
+        "contractTerm":  {
+          "value":  1,
+          "unit":  "TPU_YEAR"
+        },
+        "listingCoverageTerm":  {
+          "value":  180,
+          "unit":  "TPU_DAY"
+        },
+        "listingCoverageBeneficiary":  "BUYER",
+        "geography":  {
+          "states":  {
+            "includes":  [
+              "NH",
+              "NJ"
+            ]
+          },
+          "zipCodes":  {
+            "excludes":  [
+              "03031",
+              "03032",
+              "03033",
+              "03034",
+              "03036",
+              "03037"
+            ]
+          }
+        },
+        "propertyType":  {
+          "list":  [
+            "TOWN",
+            "Units-1"
+          ]
+        },
+        "propertySize":  {
+          "max":  10000,
+          "unit":  "AU_SQUARE_FOOT"
+        },
+        "propertyAge":  {
+          "max":  100,
+          "unit":  "TPU_MONTH"
+        },
+        "franchise":  {
+          "list":  [
+            "13024"
+          ]
+        },
+        "salesGroup":  "RELO",
+        "starFulfillments":  {},
+        "starRemarks":  {
+          "starRemarkList":  [
+            {
+              "type":  "SERVICE",
+              "text":  "Only 5000 ml"
+            }
+          ]
+        },
+        "aggregateCashOutAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "postCashOutAssetRepairWaitPeriod":  {
+          "value":  1,
+          "unit":  "TPU_MONTH"
+        },
+        "aggregateRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "diagnosisFee":  {
+          "currencyCode":  "USD",
+          "units":  "75"
+        },
+        "maxItemRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "maxCashOutAmount":  {},
+        "maintenanceFee":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        }
+      },
+      "features":  {
+        "baseFeatures":  [
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+            "name":  "First Coverage",
+            "attributes":  {
+              "coverageAttributes":  {
+                "starCoverageID":  "118372",
+                "aggregateRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "7777"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "maxCashOutAmount":  {},
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "listingCoverageBeneficiary":  "BUYER"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                "name":  "Water Heater",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "332",
+                    "starTradeCode":  "PLB",
+                    "aggregateRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "8888"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "maxCashOutAmount":  {},
+                    "listingCoverageBeneficiary":  "BUYER"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "addOnFeatureBundles":  {
+          "options":  [
+            {
+              "bundleID":  "ab744ea4-5625-451b-94b0-4874ae409444",
+              "name":  "AddOn Bundle",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+                  "name":  "First Coverage",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118372",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "7777"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "332",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "989",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "attributes":  {
+                "starCoverageGroupID":  "236566"
+              }
+            },
+            {
+              "bundleID":  "817d1c29-4273-4d27-9648-525d8890f68c",
+              "name":  "AddOn Bundle 2nd",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "f3915607-886f-433a-9310-169d05d0f9d1",
+                  "name":  "Artemis POC Maintenance Services",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118412",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "6567"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1079",
+                          "starTradeCode":  "PSC",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "636fdafe-8177-46f5-9128-020e4e4fa2c9",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1081",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "attributes":  {
+                "starCoverageGroupID":  "236567"
+              }
+            }
+          ],
+          "pickRules":  [
+            {
+              "min":  1,
+              "max":  4,
+              "strategy":  "PS_MULTIPLE_QUANTITY_OF_EACH_OPTION"
+            }
+          ]
+        }
+      },
+      "effectiveDate":  "2022-11-23T18:23:09Z",
+      "productTemplateVersionID":  "15af357f-4c72-4f88-9ee7-6f9d9f78b025"
+    },
+    {
+      "productTemplateID":  "a5599d54-9011-4da8-9a02-47cf5846e8af",
+      "productID":  "0d716cca-9fa5-47a1-ba42-a83182033bfe",
+      "starPVID":  "7106",
+      "starOldPV":  "7106",
+      "productType":  "6",
+      "name":  "Streem Product-Local Testing",
+      "description":  "Streem Product, RE,RELO, Condo&Town",
+      "attributes":  {
+        "brand":  "FTDR",
+        "salesChannel":  "RE",
+        "recallPeriod":  {
+          "value":  70,
+          "unit":  "TPU_DAY"
+        },
+        "contractTerm":  {
+          "value":  1,
+          "unit":  "TPU_YEAR"
+        },
+        "listingCoverageTerm":  {
+          "value":  180,
+          "unit":  "TPU_DAY"
+        },
+        "listingCoverageBeneficiary":  "BUYER",
+        "geography":  {
+          "states":  {
+            "includes":  [
+              "NH",
+              "NJ"
+            ]
+          },
+          "zipCodes":  {
+            "excludes":  [
+              "03031",
+              "03032",
+              "03033",
+              "03034",
+              "03036",
+              "03037"
+            ]
+          }
+        },
+        "propertyType":  {
+          "list":  [
+            "TOWN",
+            "Units-1"
+          ]
+        },
+        "propertySize":  {
+          "max":  10000,
+          "unit":  "AU_SQUARE_FOOT"
+        },
+        "propertyAge":  {
+          "max":  100,
+          "unit":  "TPU_MONTH"
+        },
+        "franchise":  {
+          "list":  [
+            "13024"
+          ]
+        },
+        "salesGroup":  "RELO",
+        "starFulfillments":  {},
+        "starRemarks":  {
+          "starRemarkList":  [
+            {
+              "type":  "SERVICE",
+              "text":  "Only 5000 ml"
+            }
+          ]
+        },
+        "aggregateCashOutAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "postCashOutAssetRepairWaitPeriod":  {
+          "value":  1,
+          "unit":  "TPU_MONTH"
+        },
+        "aggregateRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "diagnosisFee":  {
+          "currencyCode":  "USD",
+          "units":  "75"
+        },
+        "maxItemRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "maxCashOutAmount":  {},
+        "maintenanceFee":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        }
+      },
+      "features":  {
+        "baseFeatures":  [
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+            "name":  "First Coverage",
+            "attributes":  {
+              "coverageAttributes":  {
+                "starCoverageID":  "118372",
+                "aggregateRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "7777"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "maxCashOutAmount":  {},
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "listingCoverageBeneficiary":  "BUYER"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                "name":  "Water Heater",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "332",
+                    "starTradeCode":  "PLB",
+                    "aggregateRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "8888"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "maxCashOutAmount":  {},
+                    "listingCoverageBeneficiary":  "BUYER"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "addOnFeatureBundles":  {
+          "options":  [
+            {
+              "bundleID":  "4d82efc1-cc79-4468-8318-53798af15dcc",
+              "name":  "AddOn Bundle",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+                  "name":  "First Coverage",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118372",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "7777"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "332",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "989",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bundleID":  "c29bbdd4-bc5c-41bf-8466-1312a218123a",
+              "name":  "AddOn Bundle 2nd",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "f3915607-886f-433a-9310-169d05d0f9d1",
+                  "name":  "Artemis POC Maintenance Services",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118412",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "6567"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1079",
+                          "starTradeCode":  "PSC",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "636fdafe-8177-46f5-9128-020e4e4fa2c9",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1081",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "pickRules":  [
+            {
+              "min":  1,
+              "max":  4,
+              "strategy":  "PS_MULTIPLE_QUANTITY_OF_EACH_OPTION"
+            }
+          ]
+        }
+      },
+      "effectiveDate":  "2022-11-24T10:05:24Z",
+      "productTemplateVersionID":  "7162fcd9-2d85-4e39-bd96-bc86921ba7de"
+    },
+    {
+      "productTemplateID":  "a5599d54-9011-4da8-9a02-47cf5846e8af",
+      "productID":  "3b947743-3e28-42dd-9a03-91fd714f8a7a",
+      "starPVID":  "7107",
+      "starOldPV":  "7107",
+      "productType":  "6",
+      "name":  "Streem Product-Local Testing",
+      "description":  "Streem Product, RE,RELO, Condo&Town",
+      "attributes":  {
+        "brand":  "FTDR",
+        "salesChannel":  "RN",
+        "recallPeriod":  {
+          "value":  70,
+          "unit":  "TPU_DAY"
+        },
+        "contractTerm":  {
+          "value":  1,
+          "unit":  "TPU_YEAR"
+        },
+        "listingCoverageTerm":  {
+          "value":  180,
+          "unit":  "TPU_DAY"
+        },
+        "listingCoverageBeneficiary":  "BUYER",
+        "geography":  {
+          "states":  {
+            "includes":  [
+              "NH",
+              "NJ"
+            ]
+          },
+          "zipCodes":  {
+            "excludes":  [
+              "03031",
+              "03032",
+              "03033",
+              "03034",
+              "03036",
+              "03037"
+            ]
+          }
+        },
+        "propertyType":  {
+          "list":  [
+            "TOWN",
+            "Units-1"
+          ]
+        },
+        "propertySize":  {
+          "max":  10000,
+          "unit":  "AU_SQUARE_FOOT"
+        },
+        "propertyAge":  {
+          "max":  100,
+          "unit":  "TPU_MONTH"
+        },
+        "franchise":  {
+          "list":  [
+            "13024"
+          ]
+        },
+        "salesGroup":  "RELO",
+        "starFulfillments":  {},
+        "starRemarks":  {
+          "starRemarkList":  [
+            {
+              "type":  "SERVICE",
+              "text":  "Only 5000 ml"
+            }
+          ]
+        },
+        "aggregateCashOutAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "postCashOutAssetRepairWaitPeriod":  {
+          "value":  1,
+          "unit":  "TPU_MONTH"
+        },
+        "aggregateRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "diagnosisFee":  {
+          "currencyCode":  "USD",
+          "units":  "75"
+        },
+        "maxItemRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "maxCashOutAmount":  {},
+        "maintenanceFee":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        }
+      },
+      "features":  {
+        "baseFeatures":  [
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+            "name":  "First Coverage",
+            "attributes":  {
+              "coverageAttributes":  {
+                "starCoverageID":  "118372",
+                "aggregateRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "75"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "maxCashOutAmount":  {},
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "listingCoverageBeneficiary":  "BUYER"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                "name":  "Water Heater",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "332",
+                    "starTradeCode":  "PLB",
+                    "aggregateRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "75"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "maxCashOutAmount":  {},
+                    "listingCoverageBeneficiary":  "BUYER"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "addOnFeatureBundles":  {
+          "options":  [
+            {
+              "bundleID":  "dcdb7a60-a0b7-4b89-b747-3591d6b376e0",
+              "name":  "AddOn Bundle",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+                  "name":  "First Coverage",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118372",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "75"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "332",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "75"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "989",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bundleID":  "94964b33-7e83-4393-acf9-0f47dc78175a",
+              "name":  "AddOn Bundle 2nd",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "f3915607-886f-433a-9310-169d05d0f9d1",
+                  "name":  "Artemis POC Maintenance Services",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118412",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "75"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1079",
+                          "starTradeCode":  "PSC",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "75"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "636fdafe-8177-46f5-9128-020e4e4fa2c9",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1081",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "pickRules":  [
+            {
+              "min":  1,
+              "max":  4,
+              "strategy":  "PS_MULTIPLE_QUANTITY_OF_EACH_OPTION"
+            }
+          ]
+        }
+      },
+      "effectiveDate":  "2022-11-24T10:05:24Z",
+      "productTemplateVersionID":  "7162fcd9-2d85-4e39-bd96-bc86921ba7de"
+    },
+    {
+      "productTemplateID":  "a5599d54-9011-4da8-9a02-47cf5846e8af",
+      "productID":  "cd1fc29f-95b1-49cc-9885-bb42292072ea",
+      "starPVID":  "7108",
+      "starOldPV":  "7108",
+      "productType":  "6",
+      "name":  "Streem Product-Local Testing",
+      "description":  "Streem Product, RE,RELO, Condo&Town",
+      "attributes":  {
+        "brand":  "AHS",
+        "salesChannel":  "RE",
+        "recallPeriod":  {
+          "value":  70,
+          "unit":  "TPU_DAY"
+        },
+        "contractTerm":  {
+          "value":  1,
+          "unit":  "TPU_YEAR"
+        },
+        "listingCoverageTerm":  {
+          "value":  180,
+          "unit":  "TPU_DAY"
+        },
+        "listingCoverageBeneficiary":  "BUYER",
+        "geography":  {
+          "states":  {
+            "includes":  [
+              "NH",
+              "NJ"
+            ]
+          },
+          "zipCodes":  {
+            "excludes":  [
+              "03031",
+              "03032",
+              "03033",
+              "03034",
+              "03036",
+              "03037"
+            ]
+          }
+        },
+        "propertyType":  {
+          "list":  [
+            "TOWN",
+            "Units-1"
+          ]
+        },
+        "propertySize":  {
+          "max":  10000,
+          "unit":  "AU_SQUARE_FOOT"
+        },
+        "propertyAge":  {
+          "max":  100,
+          "unit":  "TPU_MONTH"
+        },
+        "franchise":  {
+          "list":  [
+            "13024"
+          ]
+        },
+        "salesGroup":  "RELO",
+        "starFulfillments":  {},
+        "starRemarks":  {
+          "starRemarkList":  [
+            {
+              "type":  "SERVICE",
+              "text":  "Only 5000 ml"
+            }
+          ]
+        },
+        "aggregateCashOutAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "postCashOutAssetRepairWaitPeriod":  {
+          "value":  1,
+          "unit":  "TPU_MONTH"
+        },
+        "aggregateRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "diagnosisFee":  {
+          "currencyCode":  "USD",
+          "units":  "75"
+        },
+        "maxItemRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "maxCashOutAmount":  {},
+        "maintenanceFee":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        }
+      },
+      "features":  {
+        "baseFeatures":  [
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+            "name":  "First Coverage",
+            "attributes":  {
+              "coverageAttributes":  {
+                "starCoverageID":  "118372",
+                "aggregateRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "7777"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "maxCashOutAmount":  {},
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "listingCoverageBeneficiary":  "BUYER"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                "name":  "Water Heater",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "332",
+                    "starTradeCode":  "PLB",
+                    "aggregateRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "8888"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "maxCashOutAmount":  {},
+                    "listingCoverageBeneficiary":  "BUYER"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "addOnFeatureBundles":  {
+          "options":  [
+            {
+              "bundleID":  "a3933502-cc30-4f41-a100-6d6f8213b5c8",
+              "name":  "AddOn Bundle",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+                  "name":  "First Coverage",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118372",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "7777"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "332",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "989",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bundleID":  "dcb7a865-24c5-4e2b-8817-f8b24fadd73b",
+              "name":  "AddOn Bundle 2nd",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "f3915607-886f-433a-9310-169d05d0f9d1",
+                  "name":  "Artemis POC Maintenance Services",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118412",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "6567"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1079",
+                          "starTradeCode":  "PSC",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "636fdafe-8177-46f5-9128-020e4e4fa2c9",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1081",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "pickRules":  [
+            {
+              "min":  1,
+              "max":  4,
+              "strategy":  "PS_MULTIPLE_QUANTITY_OF_EACH_OPTION"
+            }
+          ]
+        }
+      },
+      "effectiveDate":  "2022-11-24T10:05:24Z",
+      "productTemplateVersionID":  "7162fcd9-2d85-4e39-bd96-bc86921ba7de"
+    },
+    {
+      "productTemplateID":  "a5599d54-9011-4da8-9a02-47cf5846e8af",
+      "productID":  "d009d3fc-c82b-4b3e-8116-8f27db9ce79c",
+      "starPVID":  "7109",
+      "starOldPV":  "7109",
+      "productType":  "6",
+      "name":  "Streem Product-Local Testing",
+      "description":  "Streem Product, RE,RELO, Condo&Town",
+      "attributes":  {
+        "brand":  "AHS",
+        "salesChannel":  "RN",
+        "recallPeriod":  {
+          "value":  70,
+          "unit":  "TPU_DAY"
+        },
+        "contractTerm":  {
+          "value":  1,
+          "unit":  "TPU_YEAR"
+        },
+        "listingCoverageTerm":  {
+          "value":  180,
+          "unit":  "TPU_DAY"
+        },
+        "listingCoverageBeneficiary":  "BUYER",
+        "geography":  {
+          "states":  {
+            "includes":  [
+              "NH",
+              "NJ"
+            ]
+          },
+          "zipCodes":  {
+            "excludes":  [
+              "03031",
+              "03032",
+              "03033",
+              "03034",
+              "03036",
+              "03037"
+            ]
+          }
+        },
+        "propertyType":  {
+          "list":  [
+            "TOWN",
+            "Units-1"
+          ]
+        },
+        "propertySize":  {
+          "max":  10000,
+          "unit":  "AU_SQUARE_FOOT"
+        },
+        "propertyAge":  {
+          "max":  100,
+          "unit":  "TPU_MONTH"
+        },
+        "franchise":  {
+          "list":  [
+            "13024"
+          ]
+        },
+        "salesGroup":  "RELO",
+        "starFulfillments":  {},
+        "starRemarks":  {
+          "starRemarkList":  [
+            {
+              "type":  "SERVICE",
+              "text":  "Only 5000 ml"
+            }
+          ]
+        },
+        "aggregateCashOutAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "postCashOutAssetRepairWaitPeriod":  {
+          "value":  1,
+          "unit":  "TPU_MONTH"
+        },
+        "aggregateRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "diagnosisFee":  {
+          "currencyCode":  "USD",
+          "units":  "75"
+        },
+        "maxItemRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        },
+        "maxCashOutAmount":  {},
+        "maintenanceFee":  {
+          "currencyCode":  "USD",
+          "units":  "10000"
+        }
+      },
+      "features":  {
+        "baseFeatures":  [
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+            "name":  "First Coverage",
+            "attributes":  {
+              "coverageAttributes":  {
+                "starCoverageID":  "118372",
+                "aggregateRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "75"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "maxCashOutAmount":  {},
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "10000"
+                },
+                "listingCoverageBeneficiary":  "BUYER"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                "name":  "Water Heater",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "332",
+                    "starTradeCode":  "PLB",
+                    "aggregateRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "75"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "10000"
+                    },
+                    "maxCashOutAmount":  {},
+                    "listingCoverageBeneficiary":  "BUYER"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "addOnFeatureBundles":  {
+          "options":  [
+            {
+              "bundleID":  "f78cb976-c00a-4bed-aec9-f6cec2e0433f",
+              "name":  "AddOn Bundle",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "d2b59fbf-115f-4f66-b2df-4800ad2b458c",
+                  "name":  "First Coverage",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118372",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "75"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "332",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "75"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "989",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "bundleID":  "ba306d63-c177-4bc2-95ab-228c688553ca",
+              "name":  "AddOn Bundle 2nd",
+              "baseFeatures":  [
+                {
+                  "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+                  "masterDataID":  "f3915607-886f-433a-9310-169d05d0f9d1",
+                  "name":  "Artemis POC Maintenance Services",
+                  "attributes":  {
+                    "coverageAttributes":  {
+                      "starCoverageID":  "118412",
+                      "aggregateRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "aggregateCashoutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "75"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "maxCashOutAmount":  {},
+                      "maintenanceFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "10000"
+                      },
+                      "listingCoverageBeneficiary":  "BUYER"
+                    }
+                  },
+                  "includes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "84016410-e510-4bc8-b16b-7ba10f709817",
+                      "name":  "Water Heater",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "c7db479c-32e6-46e5-8ce8-71ca5bf0335f",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1079",
+                          "starTradeCode":  "PSC",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "75"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ],
+                  "excludes":  [
+                    {
+                      "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                      "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                      "name":  "Pipe",
+                      "attributes":  {
+                        "itemAttributes":  {
+                          "styleID":  "636fdafe-8177-46f5-9128-020e4e4fa2c9",
+                          "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                          "tradeCode":  "Plumbing",
+                          "starItemID":  "1081",
+                          "starTradeCode":  "PLB",
+                          "aggregateRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "aggregateCashOutAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "diagnosisFee":  {
+                            "currencyCode":  "USD",
+                            "units":  "8888"
+                          },
+                          "maxItemRepairAmount":  {
+                            "currencyCode":  "USD",
+                            "units":  "10000"
+                          },
+                          "maxCashOutAmount":  {},
+                          "listingCoverageBeneficiary":  "BUYER"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "pickRules":  [
+            {
+              "min":  1,
+              "max":  4,
+              "strategy":  "PS_MULTIPLE_QUANTITY_OF_EACH_OPTION"
+            }
+          ]
+        }
+      },
+      "effectiveDate":  "2022-11-24T10:05:24Z",
+      "productTemplateVersionID":  "7162fcd9-2d85-4e39-bd96-bc86921ba7de"
+    },
+    {
+      "productTemplateID":  "a5599d54-9011-4da8-9a02-47cf5846e8af",
+      "productID":  "7da85ad8-86a7-4d09-afc9-5d956dc7bb71",
+      "starPVID":  "96148",
+      "starOldPV":  "96148",
+      "productType":  "CASH OUT",
+      "name":  "APOLLO POC TEST",
+      "description":  "APOLLO POC TEST",
+      "attributes":  {
+        "brand":  "FTDR",
+        "salesChannel":  "DC",
+        "contractTerm":  {
+          "value":  12,
+          "unit":  "TPU_MONTH"
+        },
+        "listingCoverageBeneficiary":  "buyer",
+        "geography":  {
+          "states":  {
+            "includes":  [
+              "AL",
+              "AR",
+              "CO",
+              "CT",
+              "DE",
+              "DC",
+              "ID",
+              "IL",
+              "IN",
+              "IA",
+              "KS",
+              "KY",
+              "LA",
+              "ME",
+              "MA",
+              "MI",
+              "MN",
+              "MS",
+              "MO",
+              "MT",
+              "NE",
+              "NH",
+              "NJ",
+              "NM",
+              "NY",
+              "ND",
+              "OK",
+              "OR",
+              "PA",
+              "RI",
+              "SC",
+              "SD",
+              "TN",
+              "VT",
+              "VA",
+              "WA",
+              "WV",
+              "WY"
+            ]
+          }
+        },
+        "propertyType":  {
+          "list":  [
+            "Condominium",
+            "Mobile Home",
+            "Town House",
+            "Single Family Residence",
+            "Duplex",
+            "Triplex",
+            "Four_Plex"
+          ]
+        },
+        "propertySize":  {
+          "max":  10000,
+          "unit":  "AU_SQUARE_FOOT"
+        },
+        "propertyAge":  {
+          "max":  999,
+          "unit":  "TPU_YEAR"
+        },
+        "starFulfillments":  {},
+        "starRemarks":  {},
+        "aggregateCashOutAmount":  {
+          "currencyCode":  "USD",
+          "units":  "2000"
+        },
+        "postCashOutAssetRepairWaitPeriod":  {
+          "value":  12,
+          "unit":  "TPU_MONTH"
+        },
+        "diagnosisFee":  {
+          "currencyCode":  "USD",
+          "units":  "100"
+        },
+        "maxItemRepairAmount":  {
+          "currencyCode":  "USD",
+          "units":  "600"
+        },
+        "maxCashOutAmount":  {
+          "currencyCode":  "USD",
+          "units":  "500"
+        },
+        "maintenanceFee":  {
+          "currencyCode":  "USD",
+          "units":  "100"
+        },
+        "maxStreemCallCount":  5
+      },
+      "features":  {
+        "baseFeatures":  [
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7aa2",
+            "name":  "WFC  WALLS/FLOORS/CEILINGS",
+            "attributes":  {
+              "coverageAttributes":  {
+                "description":  "Walls/Floors/Ceilings",
+                "starCoverageID":  "1522",
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "2000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "600"
+                },
+                "maxCashOutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "500"
+                },
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "listingCoverageBeneficiary":  "buyer"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "bc3f98fe-a83c-11ea-bb37-0242ac130002",
+                "name":  "Walls, Floors, Ceiling",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "d23faa54-f249-42cd-8213-1abaadcd9375",
+                    "tradeCode":  "Minor Trades",
+                    "starItemID":  "49",
+                    "starTradeCode":  "MNR",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7aa4",
+            "name":  "EL2 ELECTRICAL",
+            "attributes":  {
+              "coverageAttributes":  {
+                "description":  "Electrical",
+                "starCoverageID":  "104711",
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "2000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "600"
+                },
+                "maxCashOutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "500"
+                },
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "listingCoverageBeneficiary":  "buyer"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "aa60176d-d3ce-435a-9a0a-22c90b152953",
+                "name":  "Electrical Panel",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "59313e95-c85a-404a-85a5-4923159c67d0",
+                    "tradeID":  "445c1aca-fce7-4c90-80ef-24eb6d0fb8b5",
+                    "tradeCode":  "Electrical",
+                    "starItemID":  "1007",
+                    "starTradeCode":  "ELC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "aa60176d-d3ce-435a-9a0a-22c90b152953",
+                "name":  "Electrical Panel",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "5fa28232-8f5c-411c-a566-6cc27c3e11bf",
+                    "tradeID":  "445c1aca-fce7-4c90-80ef-24eb6d0fb8b5",
+                    "tradeCode":  "Electrical",
+                    "starItemID":  "1007",
+                    "starTradeCode":  "ELC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "aa60176d-d3ce-435a-9a0a-22c90b152953",
+                "name":  "Electrical Panel",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "0ea676b2-3e8b-408d-b175-12899355e4eb",
+                    "tradeID":  "445c1aca-fce7-4c90-80ef-24eb6d0fb8b5",
+                    "tradeCode":  "Electrical",
+                    "starItemID":  "1007",
+                    "starTradeCode":  "ELC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "aa60176d-d3ce-435a-9a0a-22c90b152953",
+                "name":  "Electrical Panel",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "59313e95-c85a-404a-85a5-4923159c67d0",
+                    "tradeID":  "445c1aca-fce7-4c90-80ef-24eb6d0fb8b5",
+                    "tradeCode":  "Electrical",
+                    "starItemID":  "1007",
+                    "starTradeCode":  "ELC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "3a476600-16a1-4fed-b56d-771b927ec0e5",
+                "name":  "Single Room Heater (Electrician)",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "445c1aca-fce7-4c90-80ef-24eb6d0fb8b5",
+                    "tradeCode":  "Electrical",
+                    "starItemID":  "126",
+                    "starTradeCode":  "ELC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "bc3f98fe-a83c-11ea-bb37-0242ac130002",
+                "name":  "Walls, Floors, Ceiling",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "d23faa54-f249-42cd-8213-1abaadcd9375",
+                    "tradeCode":  "Minor Trades",
+                    "starItemID":  "49",
+                    "starTradeCode":  "MNR",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "71a2b338-c91b-45f0-8250-3d6a2b128786",
+                "name":  "Whole House Fan",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "445c1aca-fce7-4c90-80ef-24eb6d0fb8b5",
+                    "tradeCode":  "Electrical",
+                    "starItemID":  "20",
+                    "starTradeCode":  "ELC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "658645cb-2f36-4db8-b4d2-7950aedc1c3c",
+                "name":  "Attic Fan",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "445c1aca-fce7-4c90-80ef-24eb6d0fb8b5",
+                    "tradeCode":  "Electrical",
+                    "starItemID":  "20",
+                    "starTradeCode":  "ELC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "427d898a-da9e-4d78-bc9f-23bd2850020d",
+                "name":  "Bathroom Exhaust Fan",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "445c1aca-fce7-4c90-80ef-24eb6d0fb8b5",
+                    "tradeCode":  "Electrical",
+                    "starItemID":  "20",
+                    "starTradeCode":  "ELC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7aa5",
+            "name":  "PBST PLUMBING/STOPPAGES-ADDTL COMPONENTS",
+            "attributes":  {
+              "coverageAttributes":  {
+                "description":  "Plumbing",
+                "starCoverageID":  "104721",
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "2000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "600"
+                },
+                "maxCashOutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "500"
+                },
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "listingCoverageBeneficiary":  "buyer"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                "name":  "Pipe",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "989",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "ddc95d09-1e37-40c1-9956-6a37db81cb78",
+                "name":  "Sump Pump",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "763",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "86075444-f27e-4c29-a994-9cf5fa0308c2",
+                "name":  "Bath / Shower",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "703",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "fcb33725-78b7-4c95-b0a5-a798ace9cbfc",
+                "name":  "Valve",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "703",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "86075444-f27e-4c29-a994-9cf5fa0308c2",
+                "name":  "Bath / Shower",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "583",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "6ef9d163-3fa7-4e09-ad40-23842800383f",
+                "name":  "Gas Line",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "583",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "2a52d565-8174-451d-9f27-eabbcd1653b7",
+                "name":  "Hose Bib / Spigot",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "583",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "0c7781ca-2da7-4064-949a-e6539b92dfdc",
+                "name":  "Main Sewer Line",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "583",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                "name":  "Pipe",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "583",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "45b1b1b0-6a02-4e86-abe1-33ae7440e0a8",
+                "name":  "Sink / Faucet",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "583",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "e3a116b5-a8de-4fb8-8d33-a6696afcdb70",
+                "name":  "Toilet",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "583",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "fcb33725-78b7-4c95-b0a5-a798ace9cbfc",
+                "name":  "Valve",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "583",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "86075444-f27e-4c29-a994-9cf5fa0308c2",
+                "name":  "Bath / Shower",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "487",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "0e368a04-0b3f-482f-8c9c-f527b5554c58",
+                "name":  "Pipe",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "487",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "f756e52c-00ca-4169-a6b2-0a42ae54f7f7",
+                "name":  "Septic System",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "487",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "4b59969a-6598-4837-a505-d61c8837bf6c",
+                "name":  "Sewage Ejector Pump",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "487",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "e3a116b5-a8de-4fb8-8d33-a6696afcdb70",
+                "name":  "Toilet",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "487",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "fcb33725-78b7-4c95-b0a5-a798ace9cbfc",
+                "name":  "Valve",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "487",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "6fb462e0-ac15-4351-a096-b205dad491aa",
+                "name":  "Well Pump",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "487",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "e3a116b5-a8de-4fb8-8d33-a6696afcdb70",
+                "name":  "Toilet",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "389",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "bc3f98fe-a83c-11ea-bb37-0242ac130002",
+                "name":  "Walls, Floors, Ceiling",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "d23faa54-f249-42cd-8213-1abaadcd9375",
+                    "tradeCode":  "Minor Trades",
+                    "starItemID":  "49",
+                    "starTradeCode":  "MNR",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "2a52d565-8174-451d-9f27-eabbcd1653b7",
+                "name":  "Hose Bib / Spigot",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "2211",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "45b1b1b0-6a02-4e86-abe1-33ae7440e0a8",
+                "name":  "Sink / Faucet",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "2211",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "fcb33725-78b7-4c95-b0a5-a798ace9cbfc",
+                "name":  "Valve",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "2211",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "76a93336-13bf-4e02-8793-a7e371a94d33",
+                "name":  "Whirlpool Bathtub",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "2351",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "4b59969a-6598-4837-a505-d61c8837bf6c",
+                "name":  "Sewage Ejector Pump",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "6d4f0026-89a5-4a91-91a8-f5889c8eefef",
+                    "tradeCode":  "Plumbing",
+                    "starItemID":  "102511",
+                    "starTradeCode":  "PLB",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7aa6",
+            "name":  "APL APPLIANCES (PRODUCT)",
+            "attributes":  {
+              "coverageAttributes":  {
+                "description":  "Appliances",
+                "starCoverageID":  "21718",
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "2000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "600"
+                },
+                "maxCashOutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "500"
+                },
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "listingCoverageBeneficiary":  "buyer"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "a0928e74-ac7f-442e-ab72-536ec4281274",
+                "name":  "Dryer",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "1018",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "f666ec95-c8ec-4f83-a649-b1612e68df4c",
+                "name":  "Microwave",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "993",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "7b6f66f8-0419-4dad-b297-48073a8d7a65",
+                "name":  "Washer",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "928",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "654738f0-2cae-4996-8c60-34c671d546b9",
+                "name":  "Wall Oven",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "905",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "4d854179-b28b-47ec-8ba0-a29c47689e42",
+                "name":  "Standalone Freezer",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "867",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "1ddd63d7-03e6-4c7b-9664-765df811851b",
+                "name":  "Cooktop",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "843",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "27e0cfa1-b4bb-4520-86ed-909728772a80",
+                "name":  "Range",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "843",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "1c398bce-7e0a-4f02-a424-ea2e0c2ead21",
+                "name":  "Refrigerator",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "d9b2d81c-bd8e-48ad-ad65-11753a19eda2",
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "785",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "1c398bce-7e0a-4f02-a424-ea2e0c2ead21",
+                "name":  "Refrigerator",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "07af3657-1af6-4192-bc86-747f92fb10bf",
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "785",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "d3e0f1a6-c03d-4272-9c14-83fe3aa2ab4e",
+                "name":  "Trash Compactor",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "767",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "3111d8ae-3a49-48d4-ae34-b5483de473eb",
+                "name":  "Dishwasher",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "586",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "8914ff6b-58f1-4e82-b24c-5414bc7345c1",
+                "name":  "Range Hood Exhaust Fan",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "63",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "06eb768c-5306-4754-ba66-181c87c7833c",
+                "name":  "Built-in Food Center",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "21",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "6369e185-a09b-4783-9351-72a98aa62c5a",
+                "name":  "Standalone Ice Maker",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "5d6351ba-cda5-42f4-b5ae-352b2cd6a8c6",
+                    "tradeCode":  "Appliance",
+                    "starItemID":  "102691",
+                    "starTradeCode":  "APL",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7aa7",
+            "name":  "MAI MAITENANCE SERVICES (PRODUCT)",
+            "attributes":  {
+              "coverageAttributes":  {
+                "description":  "Maintenance Services",
+                "starCoverageID":  "21728",
+                "aggregateCashoutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "2000"
+                },
+                "diagnosisFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "maxItemRepairAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "600"
+                },
+                "maxCashOutAmount":  {
+                  "currencyCode":  "USD",
+                  "units":  "500"
+                },
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "100"
+                },
+                "listingCoverageBeneficiary":  "buyer"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "d1e34a2a-899b-4197-8835-1e236eefeea1",
+                "name":  "Heating & A/C",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "1519a8ec-0c75-4b92-82ee-6f869257f1e3",
+                    "tradeID":  "2c12f3e2-6ad6-4842-baec-32aa9da2821c",
+                    "tradeCode":  "Home Services",
+                    "starItemID":  "1079",
+                    "starTradeCode":  "PSC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "d1e34a2a-899b-4197-8835-1e236eefeea1",
+                "name":  "Heating & A/C",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "styleID":  "636fdafe-8177-46f5-9128-020e4e4fa2c9",
+                    "tradeID":  "2c12f3e2-6ad6-4842-baec-32aa9da2821c",
+                    "tradeCode":  "Home Services",
+                    "starItemID":  "1081",
+                    "starTradeCode":  "PSC",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                "masterDataID":  "3329d19c-794b-4d42-a0ac-de00c95c9332",
+                "name":  "Re-Key",
+                "attributes":  {
+                  "itemAttributes":  {
+                    "tradeID":  "2c12f3e2-6ad6-4842-baec-32aa9da2821c",
+                    "tradeCode":  "Home Services",
+                    "starItemID":  "112472",
+                    "starTradeCode":  "STR",
+                    "aggregateCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "2000"
+                    },
+                    "diagnosisFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "100"
+                    },
+                    "maxItemRepairAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "600"
+                    },
+                    "maxCashOutAmount":  {
+                      "currencyCode":  "USD",
+                      "units":  "500"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "addOnFeatures":  {
+          "options":  [
+            {
+              "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+              "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7aa0",
+              "name":  "PL4 POOL ONLY",
+              "attributes":  {
+                "coverageAttributes":  {
+                  "description":  "Pool Only",
+                  "starCoverageID":  "366",
+                  "aggregateCashoutAmount":  {
+                    "currencyCode":  "USD",
+                    "units":  "2000"
+                  },
+                  "diagnosisFee":  {
+                    "currencyCode":  "USD",
+                    "units":  "100"
+                  },
+                  "maxItemRepairAmount":  {
+                    "currencyCode":  "USD",
+                    "units":  "1100"
+                  },
+                  "maxCashOutAmount":  {
+                    "currencyCode":  "USD",
+                    "units":  "1000"
+                  },
+                  "maintenanceFee":  {
+                    "currencyCode":  "USD",
+                    "units":  "100"
+                  },
+                  "listingCoverageBeneficiary":  "buyer"
+                }
+              },
+              "includes":  [
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "f0663a48-1363-4393-9391-26ed2d634aab",
+                  "name":  "Pool & Spa Heater",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "d2315209-dd97-405d-b0ce-7c273b103252",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "1003",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "2000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1100"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1000"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "b54fa125-0400-4b11-8a06-b7f364d6aa93",
+                  "name":  "Pool & Spa Filter",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "da6d14d4-a9e2-4e73-9a79-4271ef4b32eb",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "889",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "2000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1100"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1000"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "6b5c2980-1155-4e82-920b-bef46ee1c4d6",
+                  "name":  "Pool & Spa Pump",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "f217cfc6-e1d2-40e2-b73a-e4bd5e970ac8",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "857",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "2000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1100"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1000"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "a5073604-97a5-404c-b903-4a0a7c99ec57",
+                  "name":  "Pool & Spa Electrical",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "6a0842f8-46f3-49d9-98fa-690b9c3f5f98",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "777",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "2000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1100"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1000"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "d0e80a08-5b58-4bd1-915e-7d54f6df2c8d",
+                  "name":  "Pool & Spa Plumbing",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "3ee63002-8907-47cd-ada8-779a81308ccf",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "679",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "2000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1100"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1000"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "6b5c2980-1155-4e82-920b-bef46ee1c4d6",
+                  "name":  "Pool & Spa Pump",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "starItemID":  "2",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "2000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1100"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "1000"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+              "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7aa1",
+              "name":  "CEP4 POOL/SPA COMMON EQUIP",
+              "attributes":  {
+                "coverageAttributes":  {
+                  "description":  "Pool/Inground Spa Shared Equipment",
+                  "starCoverageID":  "19",
+                  "aggregateCashoutAmount":  {
+                    "currencyCode":  "USD",
+                    "units":  "500"
+                  },
+                  "diagnosisFee":  {
+                    "currencyCode":  "USD",
+                    "units":  "100"
+                  },
+                  "maxItemRepairAmount":  {
+                    "currencyCode":  "USD",
+                    "units":  "600"
+                  },
+                  "maxCashOutAmount":  {
+                    "currencyCode":  "USD",
+                    "units":  "500"
+                  },
+                  "maintenanceFee":  {
+                    "currencyCode":  "USD",
+                    "units":  "100"
+                  },
+                  "listingCoverageBeneficiary":  "buyer"
+                }
+              },
+              "includes":  [
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "f0663a48-1363-4393-9391-26ed2d634aab",
+                  "name":  "Pool & Spa Heater",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "e68a251d-f484-4c8d-b2ac-16513fa53d5e",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "1003",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "600"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "b54fa125-0400-4b11-8a06-b7f364d6aa93",
+                  "name":  "Pool & Spa Filter",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "6615f6fb-1f3b-41ee-ad80-37612919744c",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "889",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "600"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "6b5c2980-1155-4e82-920b-bef46ee1c4d6",
+                  "name":  "Pool & Spa Pump",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "bb16ebd2-826f-47d4-b41f-b04011f34f2c",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "857",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "600"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "a5073604-97a5-404c-b903-4a0a7c99ec57",
+                  "name":  "Pool & Spa Electrical",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "b8bab3a2-5813-4571-bd0b-05974ce95726",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "777",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "600"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "d0e80a08-5b58-4bd1-915e-7d54f6df2c8d",
+                  "name":  "Pool & Spa Plumbing",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "969e64b1-1d57-4962-913b-f53823bacf10",
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "679",
+                      "starTradeCode":  "SPA"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "6b5c2980-1155-4e82-920b-bef46ee1c4d6",
+                  "name":  "POOL SWEEP MOTOR",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "starItemID":  "2",
+                      "starTradeCode":  "SPA"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "01afc5ca-badb-41e4-96be-3037fc3b8b1c",
+                  "name":  "Salt System",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "tradeID":  "5ca49410-50e9-4088-aad1-84f7f8fbbccc",
+                      "tradeCode":  "Pool & Spa",
+                      "starItemID":  "19",
+                      "starTradeCode":  "SPA",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "600"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+              "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7aa3",
+              "name":  "ROF7 ROOF - REPAIR ONLY",
+              "attributes":  {
+                "coverageAttributes":  {
+                  "description":  "Roof Leak Repair",
+                  "starCoverageID":  "2701",
+                  "aggregateCashoutAmount":  {
+                    "currencyCode":  "USD",
+                    "units":  "500"
+                  },
+                  "diagnosisFee":  {
+                    "currencyCode":  "USD",
+                    "units":  "100"
+                  },
+                  "maxItemRepairAmount":  {
+                    "currencyCode":  "USD",
+                    "units":  "600"
+                  },
+                  "maxCashOutAmount":  {
+                    "currencyCode":  "USD",
+                    "units":  "500"
+                  },
+                  "maintenanceFee":  {
+                    "currencyCode":  "USD",
+                    "units":  "100"
+                  },
+                  "listingCoverageBeneficiary":  "buyer"
+                }
+              },
+              "includes":  [
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "af820586-fbd1-4f65-9169-1b2b6589bec7",
+                  "name":  "Roof",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "307bd1c3-0dee-4388-b277-c29983db57d3",
+                      "tradeID":  "d23faa54-f249-42cd-8213-1abaadcd9375",
+                      "tradeCode":  "Minor Trades",
+                      "starItemID":  "562",
+                      "starTradeCode":  "ROOF",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "2000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "600"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                },
+                {
+                  "masterDataType":  "FMDT_ITEM_MS_ITEM",
+                  "masterDataID":  "af820586-fbd1-4f65-9169-1b2b6589bec7",
+                  "name":  "Roof",
+                  "attributes":  {
+                    "itemAttributes":  {
+                      "styleID":  "307bd2d4-0dee-4388-b277-c29983db57d4",
+                      "tradeID":  "d23faa54-f249-42cd-8213-1abaadcd9375",
+                      "tradeCode":  "Minor Trades",
+                      "starItemID":  "4",
+                      "starTradeCode":  "ROOF",
+                      "aggregateCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "2000"
+                      },
+                      "diagnosisFee":  {
+                        "currencyCode":  "USD",
+                        "units":  "100"
+                      },
+                      "maxItemRepairAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "600"
+                      },
+                      "maxCashOutAmount":  {
+                        "currencyCode":  "USD",
+                        "units":  "500"
+                      },
+                      "listingCoverageBeneficiary":  "buyer"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "effectiveDate":  "2022-08-22T09:20:51Z",
+      "productTemplateVersionID":  "7da85ad8-86a7-4d09-afc9-5d956dc7bb71"
+    },
+    {
+      "productTemplateID":  "a5599d54-9011-4da8-9a02-47cf5846e8af",
+      "productID":  "3a914391-c98e-49e9-a4db-354037fd7054",
+      "starPVID":  "96068",
+      "starOldPV":  "96068",
+      "description":  "ARTEMIS POC TEST",
+      "attributes":  {
+        "brand":  "FTDR",
+        "salesChannel":  "DC",
+        "contractTerm":  {
+          "value":  1,
+          "unit":  "TPU_YEAR"
+        },
+        "listingCoverageBeneficiary":  "Buyer",
+        "geography":  {
+          "states":  {
+            "includes":  [
+              "AL",
+              "AR",
+              "CO",
+              "CT",
+              "DE",
+              "DC",
+              "ID",
+              "IL",
+              "IN",
+              "IA",
+              "KS",
+              "KY",
+              "LA",
+              "ME",
+              "MA",
+              "MI",
+              "MN",
+              "MS",
+              "MO",
+              "MT",
+              "NE",
+              "NH",
+              "NJ",
+              "NM",
+              "ND",
+              "OK",
+              "OR",
+              "PA",
+              "RI",
+              "SC",
+              "SD",
+              "TN",
+              "VT",
+              "VA",
+              "WA",
+              "WV",
+              "WY"
+            ]
+          }
+        },
+        "propertyType":  {
+          "list":  [
+            "Condominium",
+            "Mobile Home",
+            "Town House",
+            "Single Family Residence",
+            "Duplex",
+            "Triplex",
+            "Four_Plex"
+          ]
+        },
+        "propertySize":  {
+          "max":  10000,
+          "unit":  "AU_SQUARE_FOOT"
+        },
+        "propertyAge":  {
+          "max":  999,
+          "unit":  "TPU_YEAR"
+        },
+        "starFulfillments":  {},
+        "starRemarks":  {},
+        "maintenanceFee":  {
+          "currencyCode":  "USD",
+          "units":  "125"
+        },
+        "maxStreemCallCount":  2
+      },
+      "features":  {
+        "baseFeatures":  [
+          {
+            "masterDataType":  "FMDT_PRODUCT_MS_COVERAGE",
+            "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7bb71",
+            "name":  "Maintenance Services",
+            "attributes":  {
+              "coverageAttributes":  {
+                "description":  "MAI MAITENANCE SERVICES (PRODUCT)",
+                "starCoverageID":  "21728",
+                "maintenanceFee":  {
+                  "currencyCode":  "USD",
+                  "units":  "125"
+                },
+                "listingCoverageBeneficiary":  "buyer"
+              }
+            },
+            "includes":  [
+              {
+                "masterDataType":  "FMDT_ITEM_MS_MAINTENANCE_SERVICE",
+                "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7bb71",
+                "name":  "Cooling System Check",
+                "attributes":  {
+                  "maintenanceServiceAttributes":  {
+                    "styleID":  "1519a8ec-0c75-4b92-82ee-6f869257f1e3",
+                    "tradeID":  "2c12f3e2-6ad6-4842-baec-32aa9da2821c",
+                    "tradeCode":  "Home Services",
+                    "starItemID":  "1079",
+                    "starTradeCode":  "PSC",
+                    "maintenanceFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "125"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_MAINTENANCE_SERVICE",
+                "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7bb71",
+                "name":  "Heating System Check",
+                "attributes":  {
+                  "maintenanceServiceAttributes":  {
+                    "styleID":  "636fdafe-8177-46f5-9128-020e4e4fa2c9",
+                    "tradeID":  "2c12f3e2-6ad6-4842-baec-32aa9da2821c",
+                    "tradeCode":  "Home Services",
+                    "starItemID":  "1081",
+                    "starTradeCode":  "PSC",
+                    "maintenanceFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "125"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_MAINTENANCE_SERVICE",
+                "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7bb71",
+                "name":  "RE-KEY",
+                "attributes":  {
+                  "maintenanceServiceAttributes":  {
+                    "tradeID":  "2c12f3e2-6ad6-4842-baec-32aa9da2821c",
+                    "tradeCode":  "Home Services",
+                    "starItemID":  "112472",
+                    "starTradeCode":  "STR",
+                    "maintenanceFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "125"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_MAINTENANCE_SERVICE",
+                "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7bb71",
+                "name":  "CARPET CLEANING",
+                "attributes":  {
+                  "maintenanceServiceAttributes":  {
+                    "starItemID":  "115032",
+                    "starTradeCode":  "PSC",
+                    "maintenanceFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "125"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              },
+              {
+                "masterDataType":  "FMDT_ITEM_MS_MAINTENANCE_SERVICE",
+                "masterDataID":  "7da85ad8-86a7-4d09-afc9-5d956dc7bb71",
+                "name":  "DRYER VENT CLEANING",
+                "attributes":  {
+                  "maintenanceServiceAttributes":  {
+                    "starItemID":  "115042",
+                    "starTradeCode":  "PSC",
+                    "maintenanceFee":  {
+                      "currencyCode":  "USD",
+                      "units":  "125"
+                    },
+                    "listingCoverageBeneficiary":  "buyer"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "effectiveDate":  "2022-11-14T09:20:51Z",
+      "productTemplateVersionID":  "7da85ad8-86a7-4d09-afc9-5d956dc7bb71"
+    }
+  ]
+}
